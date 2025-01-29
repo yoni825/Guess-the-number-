@@ -22,14 +22,9 @@ import java.util.Random;
                 System.out.println("You guessed too low. Try again.");
             }
 
-            else if (guess == number){
+            else {
                 System.out.println("You guessed the right number! You win!");
             }
-            else {
-                System.out.println("You did not pick a number. Please try again.");
-            }
-
-
         }
         
         scanner.close();
